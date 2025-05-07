@@ -6,13 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=.1">
   <title>Build an Event Flyer Page</title>
 <style>
+  html {
+    height: webkit-fill-available;
+  }
 body {
   padding: auto;
    margin: 0 auto;
-   width: auto;
+   width: 100vh;
    height: auto;
   
    display: flex;
+    flex-direction: column;
    justify-content: center;
    background-image: linear-gradient(180deg, rgb(151, 49, 49), rgb(163, 158, 127));
  }
@@ -34,11 +38,6 @@ body {
 
  hr {
    width: 75%;
- }
- 
- section {
-   width: 100%;
-   height: 100%;
  }
 
  h2 {
